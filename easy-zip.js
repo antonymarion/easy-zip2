@@ -5,7 +5,7 @@ var util = require('util'),
     async = require('async'),
     path = require('path'),
     buffer = require('buffer'),
-    fs = require('graceful-fs'),
+    fs = require('fs'),
     JSZip = require('jszip');
 
 function EasyZip() {
